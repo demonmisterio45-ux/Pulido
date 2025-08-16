@@ -1,5 +1,5 @@
 local library =
-    loadstring(game:HttpGet("https://pastebin.com/raw/KcVuxxjQ", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/demonmisterio45-ux/Librar-silence/refs/heads/main/Library", true))()
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local window =
@@ -7,7 +7,7 @@ local window =
     "Pulido private",
     {
         main_color = Color3.fromRGB(128, 0, 128),
-        min_size = Vector2.new(700, 650),
+        min_size = Vector2.new(550, 650),
         can_resize = false
     }
 )
