@@ -7,7 +7,7 @@ local window =
     "Pulido private",
     {
         main_color = Color3.fromRGB(128, 0, 128),
-        min_size = Vector2.new(550, 650),
+        min_size = Vector2.new(600, 650),
         can_resize = false
     }
 )
@@ -290,7 +290,7 @@ local spinwheelSwitch =
 
 local timeDropdown =
     MainTab:AddDropdown(
-    "Change Time",
+    "Cambiar tiempo",
     function(selection)
         local lighting = game:GetService("Lighting")
 
@@ -308,7 +308,7 @@ timeDropdown:Add("Night")
 timeDropdown:Add("Day")
 timeDropdown:Add("Midnight")
 
-SpecsTab:AddLabel("Player Stats:").TextSize = 24
+SpecsTab:AddLabel("Stats De Jugadores:").TextSize = 24
 
 local playerToInspect = nil
 
